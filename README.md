@@ -8,7 +8,7 @@ A list of things that you should be able to answer after studying the language:
  1. What is a `Box`, `Rc`, and `Arc` ?
  2. What is the difference between `&`, `&mut`, `ref` and `ref mut`?
  3. What is the unit type?
- 4. What is deconstruction and show to match variables work?
+ 4. What is destructuring (not deconstruction!) and show to match variables work?
  5. What is a move block/closure/capture?
  6. What is a higher order function?
  7. What does `_` do in Rust?
