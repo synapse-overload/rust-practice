@@ -23,7 +23,7 @@ trait PrintInOption {
 // we need to add the lifetime requirement to the trait bounds
 //                                                            v--- a new trait bound for Option<&'a T>
 impl<'a, T> PrintInOption for T where Option<&'a T>: Debug + 'a {
-//    ^-- new lifetime declaration                            ^-- initial problem here when there was no 'a
+//    ^-- new lifetime declaration             ^-- initial problem here when there was no 'a
     fn return_option<'k>(&'k self) -> Option<&'k T> {
         Some(&self)
     }
