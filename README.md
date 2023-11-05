@@ -19,3 +19,4 @@ A list of things that you should be able to answer after studying the language:
 12. How do you `map` and `and_then` with options?
 13. How do you convert `Option<Option<T>>` to `Option<T>`?
 14. How do you create a list with `enum`s?
+15. How many references of each type (`&mut` or `&`) can you hold and when do they prohibit each other?
