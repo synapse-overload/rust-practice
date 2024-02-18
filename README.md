@@ -1,10 +1,11 @@
 This repo contains practice programs for studying RUST.
 
 Projects:
-[mandelbrot](./mandelbrot) - This is Listing 2.12 from "Rust in action" which had some problems which needed to be fixed
-[where_clause](./where_clause) - This is a program that was inspired by the example [here](https://doc.rust-lang.org/rust-by-example/generics/where.html?highlight=PrintInOption#where-clauses) which was
+- [mandelbrot](./mandelbrot) - This is Listing 2.12 from "Rust in action" which had some problems which needed to be fixed
+- [where_clause](./where_clause) - This is a program that was inspired by the example [here](https://doc.rust-lang.org/rust-by-example/generics/where.html?highlight=PrintInOption#where-clauses) which was
 bothering me because the `vec` variable would be unusable after the call to `print_in_option`, and I really liked the ability to define a (sometimes dangerous and unintentionally broad) generic trait implementation that
 would allow subsequent use of the variable after it worked, this pushed me into a fight with the borrow checker which needed to know the lifetime of the passed in reference
+- a lot of other smaller projects which I'm not going to document, I just want to keep them for some reason that may be related to hoarding, at some point I will decide to delete them
                         
 
 Notes:
@@ -38,3 +39,4 @@ Useful books:
   is the first book on Rust I actually bought, the rest of the books seem to be online at docs.rust-lang.org
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/intro.html) - dark arts of unsafe rust, but also helpful with deep understanding of the language internals
 - [The Rust Reference](https://doc.rust-lang.org/stable/reference/) - a book that seems to aim to completely document the base library and language (*has some details of inline assembly)
+- [
